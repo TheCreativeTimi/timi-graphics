@@ -45,6 +45,7 @@
     <a href="#about" data-link="about">About</a>
     <a href="#services" data-link="services">Services</a>
     <a href="#work" data-link="work">Work</a>
+    <a href="#reviews" data-link="reviews">Reviews</a>
     <a href="#contact" class="pill" data-link="contact">Hire Me</a>
   </nav>
   <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
@@ -54,6 +55,7 @@
   <a href="#about">About</a>
   <a href="#services">Services</a>
   <a href="#work">Work</a>
+  <a href="#reviews">Reviews</a>
   <a href="#contact" class="pill">Hire Me</a>
 </div>
 
@@ -239,6 +241,19 @@
   </div>
 </section>
 
+<!-- REVIEWS -->
+<section id="reviews" class="section reviews" data-nav="reviews">
+  <div class="wrap">
+    <p class="kicker" data-reveal="up"><i></i>CLIENT REVIEWS</p>
+    <h2 class="display" data-reveal="up" data-delay="80">WHAT PEOPLE <em>ARE SAYING</em></h2>
+    <p class="sub" data-reveal="up" data-delay="140">A few words from people I've designed and built for.</p>
+
+    <div class="rev-grid" id="revGrid" data-stagger="90">
+      <!-- review cards are generated from js/reviews.js -->
+    </div>
+  </div>
+</section>
+
 <!-- CONTACT -->
 <section id="contact" class="section contact" data-nav="contact">
   <div class="wrap contact-grid">
@@ -307,6 +322,7 @@
 </div>
 
 <script src="js/works.js"></script>
+<script src="js/reviews.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
