@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://timigraphics.vercel.app/sitemap.xml
